@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { obtenerDetalleProducto } from '../api'; // API
-
+import { obtenerDetalleProducto } from '../api'; // API 
+ 
 function ItemDetailContainer() {
   const { id } = useParams();
   const [producto, setProducto] = useState(null);
